@@ -1,11 +1,11 @@
-var katzDeliLine = [];
+katzDeliLine = [];
 
 function takeANumber(katzDeliLine, name) {
   katzDeliLine.push(name)
   return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
 }
 
-function currentLine(NewLine) {
+currentLine(NewLine) {
     var line = []
     if (NewLine.length === 0) {
       return "The line is currently empty."
